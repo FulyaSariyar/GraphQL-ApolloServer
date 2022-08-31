@@ -1,7 +1,7 @@
 import React from "react";
 
-const NoteCard = ({NOTES}) => {
-  const {id,title,description,author} = NOTES;
+const NoteCard = ({note}) => {
+  const {id,title,description,author} = note;
   return (
     <div classname="card m-2 cursor-pointer border border-purple-400 rounded-lg hover:shadow-md hover:border-opacity-0 transform hover:-translate-y-1 transition-all duration-200">
       <div classname="m-4">

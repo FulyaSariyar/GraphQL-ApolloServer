@@ -5,15 +5,14 @@ import NoteList from "./components/NoteList";
 
 
 
-
-
-
 const App = () => {
   
- 
+
   return (
     <Layout>
-  <NoteList notes ={NoteList.data}></NoteList>
+  <NoteList  notes={NoteList.data}>
+   
+  </NoteList>
       <NoteList />
     </Layout>
   );
