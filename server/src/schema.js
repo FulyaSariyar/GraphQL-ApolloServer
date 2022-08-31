@@ -3,7 +3,7 @@ const {gql} =require('apollo-server')
 
 const typeDefs = gql`
 type Query{
-    # Notes for homepage
+    "Notes for homepage"
     notes:[Note!]!
 }
    "Author Description"
